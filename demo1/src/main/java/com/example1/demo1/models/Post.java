@@ -52,11 +52,12 @@ public class Post {
 	}
 	public void setFull_text(String full_text) {
 		this.full_text = full_text;
-	}
+	}	
 	
 	@Override
 	public String toString() {
 		return "Post [id=" + id + ", title=" + title + ", anons=" + anons + ", full_text=" + full_text + ", views="
 				+ views + "]";
 	}
+
 }
